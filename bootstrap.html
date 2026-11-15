@@ -19,7 +19,7 @@
       </a>
 
     <!--menu pequeno-->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -92,11 +92,13 @@
  <section id="destinos" class="bg-light py-5">
     <div class="container-fluid px-3">
       <h2 class="h3 text-center mb-4">Destinos em destaque</h2>
+      <div class="row">
+    <div class="col-12 col-lg-10 mx-auto">
       <div id="carrossel" class="carousel slide shadow rounded overflow-hidden" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carrossel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Lisboa"></button>
-          <button type="button" data-bs-target="#carrossel" data-bs-slide-to="1" aria-label="Porto"></button>
-          <button type="button" data-bs-target="#carrossel" data-bs-slide-to="2" aria-label="Algarve"></button>
+          <button type="button" data-bs-target="#carrossel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+          <button type="button" data-bs-target="#carrossel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#carrossel" data-bs-slide-to="2"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -135,6 +137,8 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Seguinte</span>
         </button>
+        </div>
+      </div>
       </div>
     </div>
   </section>
@@ -299,17 +303,19 @@
         <div class="col-12 col-md-4">
           <h5 class="h6">Newsletter</h5>
           <div class="input-group input-group-sm mb-3">
-            <span class="input-group-text"><i class="bi bi-envelope"></i></span>
-            <input type="email" class="form-control" placeholder="O seu email" aria-label="O seu email">
+            <span class="input-group-text">
+              <i class="bi bi-envelope"></i>
+            </span>
+            <input type="email" class="form-control" placeholder="O seu email">
             <button class="btn btn-warning" type="button">Subscrever</button>
           </div>
-          <a href="#" class="text-white me-2 fs-5" aria-label="Instagram">
+          <a href="#" class="text-white me-2 fs-5 text-decoration-none">
             <i class="bi bi-instagram"></i>
           </a>
-          <a href="#" class="text-white me-2 fs-5" aria-label="Facebook">
+          <a href="#" class="text-white me-2 fs-5 text-decoration-none">
             <i class="bi bi-facebook"></i>
           </a>
-          <a href="#" class="text-white fs-5" aria-label="YouTube">
+          <a href="#" class="text-white fs-5 text-decoration-none">
             <i class="bi bi-youtube"></i>
           </a>
         </div>
